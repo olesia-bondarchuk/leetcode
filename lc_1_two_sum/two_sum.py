@@ -10,8 +10,4 @@ class Solution:
             index_map[nums[index]] = index
 
         return []
-
-if __name__ == '__main__':
-    result = Solution().twoSum([2,7,11,15], 9)
-    print(result)
     
