@@ -1,6 +1,6 @@
 #from helpers.list_node import ListNode
-from lc_27_remove_element.remove_element import Solution
+from lc_26_remove_duplicates_from_sorted_array.remove_duplicates_from_sorted_array import Solution
 
 if __name__ == '__main__':
-    result = Solution().removeElement([0,1,2,2,3,0,4,2], 2)
+    result = Solution().removeDuplicates([0,0,1,1,1,2,2,3,3,4])
     print(result)
