@@ -1,7 +1,6 @@
 from helpers.list_node import ListNode
-from lc_21_merge_two_sorted_lists.merge_two_sorted_lists import Solution
+from lc_27_remove_element.remove_element import Solution
 
 if __name__ == '__main__':
-    result = Solution().mergeTwoLists(ListNode(1, ListNode(2, ListNode(4))),
-    ListNode(1, ListNode(3, ListNode(4))))
+    result = Solution().removeElement([0,1,2,2,3,0,4,2], 2)
     print(result)
