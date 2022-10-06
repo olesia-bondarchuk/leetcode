@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "home.local",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "home.local",
+            "database": "homeassistant",
+            "username": "homeassistant",
+            "password": "homeassistant"
+        }
+    ]
+}
