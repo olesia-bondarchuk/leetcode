@@ -9,8 +9,8 @@ class Solution:
 
         for i in range(1, numRows):
             row = []
-            for j in range(0, i+1):
-                if j == 0 or j == i:
+            for j in (0, i+1):
+                if j in (0, i):
                     row.append(1)
                 else:
                     row.append(result[i-1][j-1] + result[i-1][j])
